@@ -178,11 +178,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               Text(
                                 "Subhan Allah",
-                                style: TextStyle(color: Colors.black),
+                                style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
                               ),
                               Text(
                                 "سُبْحَانَ ٱللَّٰهِ ",
-                                style: TextStyle(color: Colors.black),
+                                style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
                               ),
                             ],
                           ),
@@ -205,11 +205,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               Text(
                                 "Alhamdulillah",
-                                style: TextStyle(color: Colors.black),
+                                style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
                               ),
                               Text(
                                 " ٱلْحَمْدُ لِلَّٰهِِ ",
-                                style: TextStyle(color: Colors.black),
+                                style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
                               ),
                             ],
                           ),
@@ -232,11 +232,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               Text(
                                 "Allahu Akbar",
-                                style: TextStyle(color: Colors.black),
+                                style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
                               ),
                               Text(
                                 "ٱللَّٰهُ أَكْبَرُ",
-                                style: TextStyle(color: Colors.black),
+                                style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,),
                               ),
                             ],
                           ),
@@ -279,18 +279,18 @@ class _HomeScreenState extends State<HomeScreen> {
                         message: "Decrement",
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.blue[400], // বোতামের রঙ
-                            foregroundColor: Colors.white, // টেক্সটের রঙ
+                            backgroundColor: Colors.blue[400],
+                            foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(
                                 10,
-                              ), // গোলাকার কোণা
+                              ),
                             ),
                             padding: EdgeInsets.symmetric(
                               vertical: 20,
-                            ), // বোতামের সাইজ
+                            ),
                             elevation: 10,
-                            shadowColor: Colors.red, // শ্যাডো
+                            shadowColor: Colors.red,
                           ),
                           onPressed: () {
                             Sub();
@@ -313,18 +313,18 @@ class _HomeScreenState extends State<HomeScreen> {
                         message: "Increment",
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.blue[400], // বোতামের রঙ
-                            foregroundColor: Colors.white, // টেক্সটের রঙ
+                            backgroundColor: Colors.blue[400],
+                            foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(
                                 10,
-                              ), // গোলাকার কোণা
+                              ),
                             ),
                             padding: EdgeInsets.symmetric(
                               vertical: 20,
-                            ), // বোতামের সাইজ
+                            ),
                             elevation: 10,
-                            shadowColor: Colors.red, // শ্যাডো
+                            shadowColor: Colors.red,
                           ),
                           onPressed: () {
                             Add();
@@ -347,8 +347,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         message: "Reset",
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.blue[400], // বোতামের রঙ
-                            foregroundColor: Colors.white, // টেক্সটের রঙ
+                            backgroundColor: Colors.blue[400],
+                            foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(
                                 10,
@@ -356,9 +356,9 @@ class _HomeScreenState extends State<HomeScreen> {
                             ),
                             padding: EdgeInsets.symmetric(
                               vertical: 20,
-                            ), // বোতামের সাইজ
+                            ),
                             elevation: 10,
-                            shadowColor: Colors.red, // শ্যাডো
+                            shadowColor: Colors.red,
                           ),
                           onPressed: () {
                             Reset();
